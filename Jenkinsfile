@@ -7,9 +7,10 @@ pipeline {
                 script {
                     // Get the branch name from the environment variable
                     def branchName = env.BRANCH_NAME
-                    echo "Hello, ${branchName}"
+                    echo "Hello, ${branchName} one more time"
                 }
             }
         }
     }
 }
+
